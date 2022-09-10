@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "name": "node-learn",
+  "version": "1.0.0",
+  "description": "Learning JS from U",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "node-js",
+    "node-learn"
+  ],
+  "author": "Aydar Vildanov <vildanov.other@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0",
+    "npm": "^8.19.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
